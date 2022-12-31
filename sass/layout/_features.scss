@@ -1,0 +1,158 @@
+.section-features {
+  background-image: url(../img/Vector.png);
+  background-size: cover;
+  background-position: top;
+  z-index: 3;
+  margin-top: -11.8rem;
+  position: relative;
+  margin-bottom: 14.7rem;
+
+  &::after {
+    content: "";
+    background-image: url(../img/Base1.png);
+    position: absolute;
+    display: block;
+    min-height: 50%;
+    max-height: 100%;
+    width: 100%;
+    top: 25rem;
+    left: 0;
+    background-size: cover;
+    background-position: top;
+    z-index: -99;
+    background-repeat: no-repeat;
+  }
+}
+
+.features-stats {
+  display: grid;
+  grid-template-columns: 455fr 109fr 202fr 88fr 217fr 77fr 760fr;
+  padding-top: 9.4rem;
+  background-color: transparent;
+}
+
+.stats {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--1 {
+      grid-column: 2/3;
+    }
+    &--2 {
+      grid-column: 4/5;
+    }
+    &--3 {
+      grid-column: 6/7;
+    }
+  }
+
+  &__text {
+    font-size: 4.8rem;
+    line-height: 6.8rem;
+    font-weight: 600;
+  }
+
+  &__label {
+    font-family: "Inter", sans-serif;
+    color: $grey-font-color;
+    font-size: 1.8rem;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 1.8rem;
+    text-align: center;
+    margin-bottom: 22.3rem;
+  }
+}
+
+.heading-container {
+  display: flex;
+  position: relative;
+
+  &--center {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+}
+
+.features {
+  &__text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    text-align: center;
+    color: $grey-font-color;
+    opacity: 0.8;
+    margin-bottom: 6.4rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+}
+
+.feature {
+  border-radius: 4.8rem;
+  padding: 3rem;
+
+  &--1 {
+    background-color: #70d0dc;
+  }
+
+  &--2 {
+    background-color: #7562e0;
+  }
+
+  &--3 {
+    background-color: #fa865f;
+  }
+
+  &__icon-container {
+    position: relative;
+    display: inline-block;
+    margin: 2.4rem 26rem 4.4rem 2.4rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -40%;
+      left: -45%;
+      height: 180%;
+      width: 200%;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 1);
+      z-index: 1;
+      display: inline-block;
+    }
+  }
+
+  &__icon {
+    z-index: 2;
+    position: relative;
+  }
+
+  &__heading {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    opacity: 0.8;
+    color: #fff;
+  }
+}

@@ -1,0 +1,268 @@
+@media only screen and (max-width: 81em) {
+  //1296
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  //960
+  html {
+    font-size: 30%;
+  }
+
+  .header {
+    &__phone-pic {
+      position: absolute;
+
+      &--1 {
+        top: -14rem;
+        left: -90rem;
+      }
+
+      &--2 {
+        top: -16rem;
+        right: -91rem;
+      }
+
+      &--3 {
+        top: -29.2rem;
+        left: -31.3rem;
+      }
+
+      &--4 {
+        top: 4rem;
+        right: -21rem;
+      }
+    }
+  }
+}
+
+/////////////////////////////////////////////
+//MOBILE SCREEN
+////////////////////////////////////////////
+
+@media only screen and (max-width: 50em) {
+  //800
+
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    &__phone-pic {
+      &--1 {
+        display: none;
+      }
+
+      &--2 {
+        display: none;
+      }
+
+      &--3 {
+        top: -40.2rem;
+        left: 63.3rem;
+      }
+
+      &--4 {
+        display: none;
+      }
+    }
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .nav {
+    &__list {
+      display: none;
+    }
+
+    &__login {
+      display: none;
+    }
+  }
+
+  .features-stats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats__label {
+    margin-bottom: 6rem;
+  }
+
+  .section-analytics {
+    flex-direction: column;
+  }
+
+  .section-tracker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tracker__image {
+    max-width: 100%;
+  }
+
+  .pricing__plans {
+    flex-direction: column;
+  }
+
+  .pricing__plan {
+    margin: 0 10rem;
+  }
+
+  .section-partners {
+    flex-direction: column;
+  }
+
+  .partners__text-container {
+    order: 1;
+  }
+
+  .partners__image-container {
+    order: 2;
+  }
+
+  .partners__image {
+    max-width: 100%;
+  }
+
+  .review {
+    &__container {
+      flex-direction: column;
+    }
+    &__figure {
+      align-self: center;
+    }
+  }
+
+  .section-get {
+    padding-bottom: 10rem;
+  }
+  .get__image {
+    display: none;
+  }
+
+  .footer {
+    padding-top: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .footer__nav {
+    flex-direction: column;
+    align-items: start;
+    gap: 3rem;
+  }
+
+  .footer__list {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 45em) {
+  //720
+  html {
+    font-size: 45%;
+  }
+
+  .header {
+    &__phone-pic {
+      &--3 {
+        top: -43.2rem;
+        left: 47.3rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 37em) {
+  //592
+  html {
+    font-size: 35%;
+  }
+
+  .footer__nav {
+    gap: 10rem;
+  }
+}
+
+@media only screen and (max-width: 28em) {
+  //448
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 24em) {
+  //384
+  html {
+    font-size: 25%;
+  }
+
+  .feature__icon-container::before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 21em) {
+  //336
+  html {
+    font-size: 20%;
+  }
+
+  .analytics__function {
+    column-gap: 6rem;
+  }
+
+  .footer__nav {
+    gap: 14rem;
+  }
+}
+
+@media only screen and (max-width: 17em) {
+  //272
+  html {
+    font-size: 15%;
+  }
+}
+
+/////////////////////////////////////////////
+//BIG DESCTOP
+////////////////////////////////////////////
+@media only screen and (min-width: 121em) {
+  //1936
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 152em) {
+  //2432
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (min-width: 170em) {
+  //2720
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 207em) {
+  //3312
+  html {
+    font-size: 130%;
+  }
+}

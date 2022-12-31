@@ -1,0 +1,24 @@
+.section-partners {
+  padding: 12rem 7.6rem 8rem 7.6rem;
+
+  background-color: #f8fefe;
+
+  display: flex;
+  gap: 10rem;
+}
+
+.partners {
+  &__text {
+    font-family: "Inter", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: $grey-font-color;
+    opacity: 0.8;
+    opacity: 0.8;
+  }
+
+  &__image {
+    max-width: 130%;
+  }
+}

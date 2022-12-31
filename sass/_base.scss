@@ -1,0 +1,30 @@
+//COLORS
+$background-color-1: #fff8f2;
+$orange-color: #ff553e;
+
+//TYPOGRAPHY
+$default-font-color: #1c0e0d;
+$grey-font-color: #404040;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: $default-font-color;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+}

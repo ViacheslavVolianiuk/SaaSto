@@ -1,0 +1,76 @@
+.section-get {
+  background-color: #fff8f2;
+  padding: 17.3rem 3rem 0 3rem;
+  position: relative;
+  display: flex;
+  gap: 11rem;
+  justify-content: center;
+  overflow-y: hidden;
+
+  &::before {
+    content: "";
+    background-image: url(../img/Images1.svg);
+    position: absolute;
+    display: block;
+    height: 190%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+
+.get {
+  &__text-container {
+    align-self: center;
+  }
+
+  &__text {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: $grey-font-color;
+    opacity: 0.8;
+  }
+
+  &__icon {
+    fill: #fff;
+    width: 3.2rem;
+    height: 3.2rem;
+    &--google {
+      fill: $orange-color;
+    }
+  }
+
+  &__btn-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__btn {
+    display: flex !important;
+    max-width: max-content;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 max-content;
+  }
+
+  &__btn-text {
+    line-height: 1.2;
+    font-size: 1.4rem;
+    span {
+      font-size: 2.8rem;
+    }
+  }
+
+  &__image {
+    max-width: 100%;
+    z-index: 3;
+    position: relative;
+    max-width: 100%;
+    flex: 0 1;
+  }
+}
