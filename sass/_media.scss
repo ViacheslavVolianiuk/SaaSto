@@ -193,6 +193,7 @@
 
   .section-get {
     justify-content: center;
+    padding-left: 12rem;
   }
 
   .get__btn-container {
@@ -229,16 +230,16 @@
   .feature__icon-container::before {
     display: none;
   }
+
+  .feature__icon-container {
+    margin: 2.4rem 8rem 4.4rem 2.4rem;
+  }
 }
 
 @media only screen and (max-width: 22em) {
   //352
   html {
     font-size: 4px;
-  }
-
-  .feature__icon-container {
-    margin: 2.4rem 8rem 4.4rem 2.4rem;
   }
 
   .analytics__function {
