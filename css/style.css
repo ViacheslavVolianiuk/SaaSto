@@ -172,10 +172,10 @@ body {
     text-align: center;
     width: 100%; }
   .navigation__item {
-    margin: 1rem; }
+    margin: 2rem; }
   .navigation__link:link, .navigation__link:visited {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 300;
     padding: 1rem 2rem;
     color: #fff;
@@ -185,7 +185,7 @@ body {
     background-size: 220%;
     transition: all 0.4s; }
     .navigation__link:link span, .navigation__link:visited span {
-      margin-right: 1.5rem;
+      margin-right: 2rem;
       display: inline-block; }
   .navigation__link:hover, .navigation__link:active {
     background-position: 100%;

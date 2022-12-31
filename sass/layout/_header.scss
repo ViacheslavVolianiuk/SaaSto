@@ -177,6 +177,7 @@
 
 .navigation {
   display: none;
+
   &__checkbox {
     display: none;
   }
@@ -230,14 +231,14 @@
   }
 
   &__item {
-    margin: 1rem;
+    margin: 2rem;
   }
 
   &__link {
     &:link,
     &:visited {
       display: inline-block;
-      font-size: 3rem;
+      font-size: 7rem;
       font-weight: 300;
       padding: 1rem 2rem;
       color: #fff;
@@ -253,7 +254,7 @@
       transition: all 0.4s;
 
       span {
-        margin-right: 1.5rem;
+        margin-right: 2rem;
         display: inline-block;
       }
     }
