@@ -172,10 +172,10 @@ body {
     text-align: center;
     width: 100%; }
   .navigation__item {
-    margin: 1rem; }
+    margin: 2rem; }
   .navigation__link:link, .navigation__link:visited {
     display: inline-block;
-    font-size: 3rem;
+    font-size: 7rem;
     font-weight: 300;
     padding: 1rem 2rem;
     color: #fff;
@@ -185,7 +185,7 @@ body {
     background-size: 220%;
     transition: all 0.4s; }
     .navigation__link:link span, .navigation__link:visited span {
-      margin-right: 1.5rem;
+      margin-right: 2rem;
       display: inline-block; }
   .navigation__link:hover, .navigation__link:active {
     background-position: 100%;
@@ -801,25 +801,29 @@ body {
   z-index: 2;
   flex-shrink: 0; }
   .heading-secondary span {
-    z-index: 3;
+    z-index: -4;
     position: relative; }
   .heading-secondary__shape {
     height: 3.5rem;
     width: 17.6rem;
     position: absolute;
-    z-index: -1; }
+    z-index: -1 !important; }
     .heading-secondary__shape--features {
       top: 38%;
-      left: 50%; }
+      left: 50%;
+      z-index: -1; }
     .heading-secondary__shape--analytics {
       top: 50%;
-      left: -10%; }
+      left: -10%;
+      z-index: -1; }
     .heading-secondary__shape--tracker {
       top: 50%;
-      left: 0; }
+      left: 0;
+      z-index: -1; }
     .heading-secondary__shape--pricing {
       top: 45%;
-      left: -20%; }
+      left: -20%;
+      z-index: -1; }
 
 .heading-tertiary {
   font-size: 2.8rem;
@@ -956,7 +960,8 @@ body {
   html {
     font-size: 35%; }
   .section-get {
-    justify-content: center; }
+    justify-content: center;
+    padding-left: 12rem; }
   .get__btn-container {
     justify-content: center; }
   .footer__nav {
@@ -969,19 +974,19 @@ body {
 
 @media only screen and (max-width: 28em) {
   html {
-    font-size: 5px; } }
+    font-size: 27%; } }
 
 @media only screen and (max-width: 24em) {
   html {
     font-size: 25%; }
   .feature__icon-container::before {
-    display: none; } }
+    display: none; }
+  .feature__icon-container {
+    margin: 2.4rem 8rem 4.4rem 2.4rem; } }
 
 @media only screen and (max-width: 22em) {
   html {
     font-size: 4px; }
-  .feature__icon-container {
-    margin: 2.4rem 8rem 4.4rem 2.4rem; }
   .analytics__function {
     column-gap: 5rem; }
   .footer__nav {
